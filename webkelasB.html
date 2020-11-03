@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+<style>
+
+.container {
+
+    width: 800px;
+    height: 1500px;
+    border: 2px red solid;
+    margin:auto;
+    position: relative; 
+    top: 100px;
+    
+}
+
+.judul {
+    width: 800px;
+    height: 100px;
+    border: 1px solid yellow;
+    padding-left: 20px;
+    padding-top: 20px;
+    box-sizing: border-box;
+
+
+}
+
+.judul .judulatas {
+    font-size: 30px;
+    text-shadow: 3px 2px yellow;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.menu {
+    width: 800px;
+    height: 50px;    
+    border: 1px solid black;
+    padding-top: 20px;
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+
+.menu a{
+    text-decoration: none;
+    color: black;
+}
+
+.menu a:hover{
+    background-color: lightskyblue;
+    color:black;
+}
+
+.banner {
+
+    background-color: yellow;
+    
+    width: 800px;
+    height: 250px;
+    background-image: url(banner.jpg);
+    background-size: cover;
+    background-position-y:-150px;
+    
+}
+
+.judulartikel {
+
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.konten {
+width: 800px;
+height: 400px;
+padding: 20px 20px 20px 20px;
+box-sizing: border-box;
+background-color: yellow;
+overflow: auto;
+    
+}
+
+.konten img {
+
+    float: left;
+    padding: 20px 20px;
+}
+
+.gallery {
+    border-radius: 10px;
+    background-color: orange;
+    margin: 5px 5px 5px 5px;
+    width: 190px;
+    height: 150px;
+    float: left;
+}
+
+
+
+.thumbnail {
+    border-radius: 5px;
+    width: 170px;
+    height: 60px;
+    margin: 10px auto;
+    background-color: lavenderblush;
+}
+.ribbon {
+
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    background-image: url(ribbon.png);
+    left:700px;
+    top:-20px;
+}
+
+
+.layarhitam {
+
+border-radius: 5px;
+width: 200px;
+height: 50px;
+position: absolute;
+left:10px;
+top:30px;
+background-color:yellow;
+opacity: 0.5;
+border: 1px solid yellow;
+}
+
+
+.panel_mode {
+
+    width: 150px;
+    height: 100px;
+    background-color: lightblue;
+    border-radius: 10px;
+    position: fixed;
+    left:1150px;
+
+}
+
+
+
+
+.cobaevent {
+
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+
+}
+
+
+.cobaevent1 {
+
+width: 100px;
+height: 100px;
+background-color: yellow;
+
+}
+
+
+.cobaevent2 {
+
+width: 100px;
+height: 100px;
+background-color: salmon;
+
+}
+</style>
+
+
+
+</head>
+<body>
+    
+
+    <div class="panel_mode">
+<br>
+<center>
+        <button type="button" onclick="ubahwarna_dark()">Mode Malam Hari</button>
+
+
+        <br>
+        <br>
+
+        <button type="button" onclick="ubahwarna_light()">Mode Siang Hari</button>
+    </center>
+
+
+    </div>
+
+
+
+    <div class="container">
+
+        <div class="layarhitam"></div>
+<div class="ribbon">    </div>
+
+<div class="judul">
+
+<h1 class="judulatas">My Website</h1>
+
+</div>
+
+
+<div class="menu">
+
+    <a href="#">Home</a>
+
+    <a href="#">Profil</a>
+
+    <a href="#">Contact</a>
+
+
+</div>
+
+<div class="banner">
+
+    
+</div>
+
+
+<div class="judulartikel">
+<h2>CANDI BOROBUDUR</h2>
+<p> Ditulis Oleh Tsalisa Marthalia Riskiana</p>
+
+</div>
+
+
+<div id="konten" class="konten">
+
+
+    <img src="logo.png" alt="image" width=150px; height=150px;>
+
+<p>Borobudur (bahasa Jawa: ꦕꦤ꧀ꦝꦶ​ꦧꦫꦧꦸꦝꦸꦂ, translit. Candhi Barabudhur) adalah sebuah candi Buddha yang terletak di Borobudur, Magelang, Jawa Tengah, Indonesia. Candi ini terletak kurang lebih 100 km di sebelah barat daya Semarang, 86 km di sebelah barat Surakarta, dan 40 km di sebelah barat laut Yogyakarta. Candi berbentuk stupa ini didirikan oleh para penganut agama Buddha Mahayana sekitar tahun 800-an Masehi pada masa pemerintahan wangsa Syailendra. Borobudur adalah candi atau kuil Buddha terbesar di dunia[1][2], sekaligus salah satu monumen Buddha terbesar di dunia[3].
+
+    Monumen ini terdiri atas enam teras berbentuk bujur sangkar yang di atasnya terdapat tiga pelataran melingkar, pada dindingnya dihiasi dengan 2.672 panel relief dan aslinya terdapat 504 arca Buddha[4]. Borobudur memiliki koleksi relief Buddha terlengkap dan terbanyak di dunia[3]. Stupa utama terbesar teletak di tengah sekaligus memahkotai bangunan ini, dikelilingi oleh tiga barisan melingkar 72 stupa berlubang yang di dalamnya terdapat arca Buddha tengah duduk bersila dalam posisi teratai sempurna dengan mudra (sikap tangan) Dharmachakra mudra (memutar roda dharma).
+    
+    Monumen ini merupakan model alam semesta dan dibangun sebagai tempat suci untuk memuliakan Buddha sekaligus berfungsi sebagai tempat ziarah untuk menuntun umat manusia beralih dari alam nafsu duniawi menuju pencerahan dan kebijaksanaan sesuai ajaran Buddha.[5] Para peziarah masuk melalui sisi timur dan memulai ritual di dasar candi dengan berjalan melingkari bangunan suci ini searah jarum jam, sambil terus naik ke undakan berikutnya melalui tiga tingkatan ranah dalam kosmologi Buddha. Ketiga tingkatan itu adalah Kāmadhātu (ranah hawa nafsu), Rupadhatu (ranah berwujud), dan Arupadhatu (ranah tak berwujud). Dalam perjalanannya para peziarah berjalan melalui serangkaian lorong dan tangga dengan menyaksikan tak kurang dari 1.460 panel relief indah yang terukir pada dinding dan pagar langkan.
+    
+    Menurut bukti-bukti sejarah, Borobudur ditinggalkan pada abad ke-14 seiring melemahnya pengaruh kerajaan Hindu dan Buddha di Jawa serta mulai masuknya pengaruh Islam.[6] Dunia mulai menyadari keberadaan bangunan ini sejak ditemukan 1814 oleh Sir Thomas Stamford Raffles, yang saat itu menjabat sebagai Gubernur Jenderal Inggris atas Jawa. Sejak saat itu Borobudur telah mengalami serangkaian upaya penyelamatan dan pemugaran (perbaikan kembali). Proyek pemugaran terbesar digelar pada kurun waktu 1975 hingga 1982 atas upaya Pemerintah Republik Indonesia dan UNESCO, kemudian situs bersejarah ini masuk dalam daftar Situs Warisan Dunia.[3]
+    
+    Borobudur kini masih digunakan sebagai tempat ziarah keagamaan; tiap tahun umat Buddha yang datang dari seluruh Indonesia dan mancanegara berkumpul di Borobudur untuk memperingati Trisuci Waisak. Dalam dunia pariwisata, Borobudur adalah objek wisata tunggal di Indonesia yang paling banyak dikunjungi wisatawan.</p>
+
+</div>
+
+
+<br><br>
+
+<div class="pembungkusgallery">
+
+<div class="gallery"> 
+    
+<div class="thumbnail">
+    
+</div>
+<h2> Judul Berita</h2>
+<p>Ini adalah contoh berita <read more></p>
+</div>
+
+
+<div class="gallery"> 2 </div>
+
+<div class="gallery"> 3 </div>
+
+<div class="gallery"> 4 </div>
+
+<div class="gallery"> 5 </div>
+
+<div class="gallery"> 6 </div>
+
+<div class="gallery"> 7 </div>
+
+<div class="gallery"> 8 </div>
+
+</div>
+
+
+
+   
+</div>
+
+
+
+
+
+
+    </div>
+
+
+
+<div id="cobaeventku" class="cobaevent" onmouseup="divkelakuan()" onmousedown="divkelakuan1()"></div>
+
+
+<script>
+
+
+    function ubahwarna_dark(){
+
+       document.getElementById('konten').style.backgroundColor="black";
+       document.getElementById('konten').style.color="white";
+
+
+       }
+
+
+    function ubahwarna_light(){
+
+document.getElementById('konten').style.backgroundColor="pink";
+document.getElementById('konten').style.color="black";
+
+
+
+}
+
+
+function divkelakuan(){
+
+document.getElementById('cobaeventku').className="cobaevent1";
+
+
+}
+
+function divkelakuan1(){
+
+document.getElementById('cobaeventku').className="cobaevent2";
+
+
+}
+
+
+
+</script>
+
+
+</body>
+</html>

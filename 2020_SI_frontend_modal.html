@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+.imagesdisplay {
+    width: 400px;
+    height: 200px;
+    border: 1px solid black;
+    background-color: black;
+}
+.imagesdisplay1 {
+    width: 400px;
+    height: 200px;
+    border: 1px solid black;
+    background-color: blue;
+}
+.imagesdisplay2 {
+    width: 400px;
+    height: 200px;
+    border: 1px solid black;
+    background-color: red;
+}
+.imagesdisplay3 {
+    width: 400px;
+    height: 200px;
+    border: 1px solid black;
+    background-color: yellow;
+}
+.imagesdisplay4 {
+    width: 400px;
+    height: 200px;
+    border: 1px solid black;
+    background-color: greenyellow;
+}
+
+.container_images {
+    width: 400px;
+    height: 75px;
+    border: 2px solid red;    
+}
+
+.imagespilihan1 {
+    width: 85px;
+    height: 60px;
+    border: 1px solid blue;
+    float: left;
+    margin: 5px;
+}
+.imagespilihan2 {
+    width: 85px;
+    height: 60px;
+    border: 1px solid red;
+    float: left;
+    margin: 5px;
+}
+.imagespilihan3 {
+    width: 85px;
+    height: 60px;
+    border: 1px solid yellow;
+    float: left;
+    margin: 5px;
+}
+.imagespilihan4 {
+    width: 85px;
+    height: 60px;
+    border: 1px solid greenyellow;
+    float: left;
+    margin: 5px;
+}
+
+</style>
+
+<script>
+    function setgambar1(){
+        document.getElementById("displaygambar").className="imagesdisplay1";
+    }
+
+    function setgambar2(){
+        document.getElementById("displaygambar").className="imagesdisplay2";
+    }
+
+    function setgambar3(){
+        document.getElementById("displaygambar").className="imagesdisplay3";
+    }
+
+    function setgambar4(){
+        document.getElementById("displaygambar").className="imagesdisplay4";
+    }
+</script>
+    </div>
+</head>
+<body>
+    <div id="displaygambar" class="imagesdisplay"></div>
+    <div class="container_images">
+        
+        <div class="imagespilihan1" onclick="setgambar1()"></div>
+        <div class="imagespilihan2" onclick="setgambar2()"></div>
+        <div class="imagespilihan3" onclick="setgambar3()"></div>
+        <div class="imagespilihan4" onclick="setgambar4()"></div>
+    </div>
+</body>
+</html>
